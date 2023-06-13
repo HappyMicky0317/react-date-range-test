@@ -1,5 +1,5 @@
 import '../../assets/css/include/header.css';
-import React, { useState } from 'react';
+import React from 'react';
 
 function Header(props) {
   return (
