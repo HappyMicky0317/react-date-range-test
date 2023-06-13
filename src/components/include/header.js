@@ -1,18 +1,7 @@
 import '../../assets/css/include/header.css';
-import logo from '../../assets/img/logo.png'
-import nft from'../../assets/img/header-nft.png';
-import menuIcon from '../../assets/img/mobile-menu-btn.png';
-import closeIcon from '../../assets/img/close.png';
 import React, { useState } from 'react';
 
 function Header(props) {
-  const [modalflag, setModalflag] = useState(false);
-  const closemodal = () => {
-    setModalflag(false)
-  }
-  const showmodal = () => {
-    setModalflag(true)
-  }
   return (
     <div>
       <div className="content">
